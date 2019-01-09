@@ -159,6 +159,53 @@ margin-bottom: 20px;
 .footer .gachduoi{
     opacity: 0.5;
 }
+.fixed-menu{
+    position: fixed;
+    right: 0;
+    color: #fff;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0.4);
+    margin: 5px;
+}
+.fixed-menu:hover{
+    background: rgba(0,0,0,0.7);
+}
+.menudoc{
+    position: fixed;
+    right: -300px;
+    background: rgb(34, 34, 34)
+    ;
+    height: 900px;
+    z-index: 1;
+    width: 250px;
+    transition: all 0.5s ;
+}
+.appear{
+    right: 0px;
+}
+.menudoc li{
+    list-style: none;
+    padding :10px 0 10px 15px ;
+   
+}
+.menudoc li a:hover {
+color:#fff;
+text-decoration: none;}
+.menudoc li:hover{
+    background: rgb(104, 98, 98)
+}
+.menudoc li a{
+    color: #999;
+    text-transform: capitalize;
+}
+.close-btn{
+    float:right;
+    padding: 10px 16px;
+    border: none;
+    background: #fff;
+    margin:-6px 3px;
+
+}
  @media(max-width: 768px){
      font-size: 16px;
      color:#1d1d1d
