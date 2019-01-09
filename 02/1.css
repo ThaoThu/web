@@ -1,0 +1,167 @@
+*{margin:0;padding:0; }
+.intro,.intro__content,.text-intro__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    
+    width:100%;height: 900px;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.intro h1{
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+    color:rgb(51, 51, 51)
+    ;
+}
+.intro h3{
+    margin:20px 0 15px;
+}
+.btn-dark{
+    padding:10px 16px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 0;
+    border:0;
+   
+}
+.btn-dark:hover{
+    background-color: rgba(0,0,0,0.7);}
+ .text-intro__content h3{
+     font-weight: 400;
+ }
+ .text-intro__content p{
+     font-size: 16px;
+     color:#333;
+    
+ }
+.text-intro{
+    padding:60px 0 25px 0;
+}
+.service-block{
+    color: #fff;
+    background-color: #337ab7;
+    padding:50px 0;
+}
+.service-block i{
+    color:#337ab7;
+    font-size: 50px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.title{
+    font-weight: 400;
+}
+.gachduoi{
+    border-top: 1px solid;
+    max-width: 100px;
+    margin:15px auto;
+}
+.service-name{
+    font-weight: 700;
+    font-size: 18px;
+}
+.service-block button{
+    padding:5px 5px;
+    background: #fff;
+    color:#000;
+    border:0px;
+    margin-bottom: 39px;
+}
+.service-block button:hover{
+    opacity: 0.7;
+}
+.vertical-block{
+    height: 385px;
+    background-size: cover;
+    background: url(img/callout.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.work-block{
+    padding:40px 0;
+}
+.work-block .gachduoi{
+    border-top: 1px solid #eee;
+}
+.work-block img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.work-block img:hover{
+    opacity: 0.7;
+}
+.inform{
+    height: 200px;
+    background: #337AB6;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inform h3{
+margin-bottom: 20px;
+}
+.white-btn{
+    border:0;
+    padding: 10px 12px;
+    background: #fff;
+    margin-right:20px;
+}
+.blue-btn{
+    color:#fff;
+    border:0;
+    padding: 10px 12px;
+    background: rgba(0,0,0,0.4);
+
+}
+.blue-btn:hover{
+    background: rgba(0,0,0,0.7);
+}
+.white-btn:hover{
+    opacity: 0.7;
+}
+.gg-map{
+    height:600px;
+}
+.map{
+    width:100%;
+    height:100%;
+}
+.footer{
+    padding:70px 0;
+    font-size: 14px;
+}
+.link-contact{
+    display: flex;
+    justify-content: center;
+}
+.link-contact li{
+    list-style: none;
+    margin-right:15px;
+    
+}
+.link-contact li a{
+    color:#337ab7;
+}
+.footer .gachduoi{
+    opacity: 0.5;
+}
+ @media(max-width: 768px){
+     font-size: 16px;
+     color:#1d1d1d
+ }
+
+ 
