@@ -1,0 +1,115 @@
+*{margin:0;padding:0; }
+body{
+    font-family: 'Lato', sans-serif;
+}
+.intro-header{
+    background-image: url('img/intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top:230px;
+    padding-bottom:280px;
+}
+.intro-header h1{
+font-weight: 900;
+
+text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+font-size:70px;
+color:#fff;
+}
+.intro-header h3{
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-weight: 700;
+    color:#fff;  
+}
+.ke-ngang{
+    width: 414px;
+    color: #fff;
+    border-color: #fff;
+    margin: 25px auto;
+}
+.intro-header button,.banner-footer button{
+    
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border-radius: 5px;
+    margin: 0 3px
+}
+.intro-header i,.banner-footer i{
+    padding-right: 5px
+}
+.menu,{
+    padding:0;
+}
+.main-menu{
+    background-color: #f8f9fa;
+}
+.gray-line{
+    width:50%;
+    margin-bottom:30px;
+    border-bottom: 2px solid #e7e7e7;
+    
+}
+.gray-block{
+   
+    background-color: #f8f8f8;
+}
+.gray-block h3,.white-block h3{
+    font-weight: 700;
+    margin-bottom:25px;
+}
+.gray-block,.white-block{
+    border-bottom: 1px solid #e7e7e7;
+    padding:50px 0;
+}
+.content p{
+    font-size: 18px;
+
+}
+.content a{
+    color:#337ab7;
+}
+.banner-footer{
+    background-image: url('img/banner-bg.jpg');
+    padding:100px 0;
+    background-size:cover;
+    background-position: center;
+    
+}
+.banner-footer h1{
+    color:#fff;
+    font-weight: 700;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.6);
+}
+.link-contact{
+display:flex;   
+margin-top: 35px;
+}
+.link-contact li{
+    padding-right:10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.link-contact li {
+    color:#337ab7;
+    list-style: none;
+}
+.link-contact li::before{
+    content : '⋅';
+    padding-right:10px
+}
+.copy-write{
+    font-weight: 700;
+}
+
+@media(max-width:768px){
+    .intro-header a,.banner-footer a{
+        display:block;
+        margin-bottom:15px
+    }
+}
+@media(max-width:1200px){
+    .banner-footer a{
+        
+        margin-bottom:15px
+    }
+}
